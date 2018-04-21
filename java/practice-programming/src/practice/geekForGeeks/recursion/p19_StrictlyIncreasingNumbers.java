@@ -50,7 +50,7 @@ public class p19_StrictlyIncreasingNumbers {
 
         for (int i = start; i < 10; i++) {
             set[index] = i;
-            
+
             printAllInctreasingNumbers(index + 1, i + 1, set);
         }
     }
